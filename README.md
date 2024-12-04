@@ -62,12 +62,12 @@ When taking into account these seasonal variations and possible increased costs 
 
 The goal of this part was to create models that would accurately explain the relationships between walking speed, education, age, and insurance and how each of these factors impact each other. With OLS between walking speed and (education and age), we obtained an adjusted R-squared of 0.504, which suggests that 50.4% of the variance in walking speed is explained by the predictors of education and age. The following table shows the results of the mixed effects model. 
 
-| Parameter         | Coefficient | Std. Error | z-value   | P>|z| | 95% CI (Lower) | 95% CI (Upper) |
-|-------------------|-------------|------------|-----------|------|----------------|----------------|
-| Intercept         | 5.913       | 0.048      | 123.816   | 0.000| 5.819          | 6.006          |
-| Age               | -0.033      | 0.001      | -42.999   | 0.000| -0.035         | -0.032         |
-| Education Code    | -0.244      | 0.012      | -20.025   | 0.000| -0.268         | -0.220         |
-| Group Variance    | 0.121       | 0.016      | -         | -    | -              | -              |
+| Parameter         | Coefficient | Std. Error | z-value  | P>|z| | 95% CI (Lower) | 95% CI (Upper) |
+|-------------------|-------------|------------|----------|------|----------------|----------------|
+| Intercept         | 5.913       | 0.048      | 123.816  | 0.000 | 5.819          | 6.006          |
+| Age               | -0.033      | 0.001      | -42.999  | 0.000 | -0.035         | -0.032         |
+| Education Code    | -0.244      | 0.012      | -20.025  | 0.000 | -0.268         | -0.220         |
+| Group Variance    | 0.121       | 0.016      | -        | -     | -              | -              |
 
 
 To conduct the cost analyses, we conducted a one-way ANOVA to assess differences in visit costs by insurance type and calculated the effect size to measure the impact of insurance type on visit costs. We found that platinum plans had significantly higher mean visit costs than basic and premium plans, suggesting that insurance type explains a large proportion of variance in visit costs. 
