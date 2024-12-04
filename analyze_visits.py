@@ -24,7 +24,7 @@ patient_insurance_mapping = {
 data['insurance_type'] = data['patient_id'].map(patient_insurance_mapping)
 
 #generate visit costs based on insurance type
-#fedine base costs for each insurance type 
+#fed in base costs for each insurance type 
 insurance_costs = {
     'Basic': 100, 
     'Premium': 200,
