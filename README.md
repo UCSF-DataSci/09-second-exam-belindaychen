@@ -69,7 +69,6 @@ The goal of this part was to create models that would accurately explain the rel
 | Education Code    | -0.244      | 0.012      | -20.025  | 0.000 | -0.268         | -0.220         |
 | Group Variance    | 0.121       | 0.016      | -        | -     | -              | -              |
 
-
 To conduct the cost analyses, we conducted a one-way ANOVA to assess differences in visit costs by insurance type and calculated the effect size to measure the impact of insurance type on visit costs. We found that platinum plans had significantly higher mean visit costs than basic and premium plans, suggesting that insurance type explains a large proportion of variance in visit costs. 
 
 | Insurance Type | Mean Costs ($) | Median Costs ($) |
